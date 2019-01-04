@@ -7,9 +7,9 @@ The files perform the following functions:
 
 D2v_final.model- Doc2Vec model trained on all textual information available in the item dataset using gensim library.
 
-Item-latent-feature-rep_keras_create_model.ipynb - This file is used to train an auto encoder model on 60000 images from our item dataset, test if the latent space representation of images obtained at the encoder layer is effective and store the model.
+Item-latent-space-rep_keras_create_model.ipynb - This file is used to train an auto encoder model on 60000 images from our item dataset, test if the latent space representation of images obtained at the encoder layer is effective and store the model.
 
-Item-latent-feature-rep_load_create_model- This file is used to obtain the latent space representation of all images in our item dataset using the stored encoder model and store it as content profile in a csv file. 
+Item-latent-space-rep_load_create_model- This file is used to obtain the latent space representation of all images in our item dataset using the stored encoder model and store it as content profile in a csv file. 
 
 Encoder2.h5- Stored encoder model
 
@@ -25,8 +25,8 @@ Recommendation_system_content_subset3: This file is used to run our hybrid conte
 
 Recommendation system_EDA: This file contains exploratory data analysis of our dataset.
 
-Item-latent-feature-rep_doc2vec_create_model : This file is used to create a doc2vec model trained on all text information on items, test the effectiveness of the model created and store the model.
+Item-latent-space-rep_doc2vec_create_model : This file is used to create a doc2vec model trained on all text information on items, test the effectiveness of the model created and store the model.
 
-Item-latent-feature-rep_doc2vec_load_model: This file is used to obtain the latent space representation of all text information of items in our item dataset using the stored doc2vec model and store it as content profile in a csv file. 
+Item-latent-space-rep_doc2vec_load_model: This file is used to obtain the latent space representation of all text information of items in our item dataset using the stored doc2vec model and store it as content profile in a csv file. 
 
 Neighborhood based recommendation_collaborative: This file is used to perform clustering of users and user-user collaborative filtering
